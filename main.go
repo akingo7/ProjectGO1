@@ -14,6 +14,8 @@ func main() {
 		getUserInfo()
 		if verifyUserInfoDL() {
 			postUserInfo()
+		} else {
+			verifyUserInfoFB()
 		}
 	}
 }
